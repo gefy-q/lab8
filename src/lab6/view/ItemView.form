@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="title" type="java.lang.String" value="&#x421;&#x43e;&#x437;&#x434;&#x430;&#x43d;&#x438;&#x435; &#x434;&#x440;&#x430;&#x43a;&#x43e;&#x43d;&#x430;"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="titleLabel" alignment="0" max="32767" attributes="0"/>
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="ageLabel" alignment="0" max="32767" attributes="0"/>
+                  <Component id="coordsYLabel" alignment="0" max="32767" attributes="0"/>
+                  <Component id="coordsXLabel" alignment="0" max="32767" attributes="0"/>
+                  <Component id="nameLabel" alignment="0" max="32767" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="53" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="treasuresLabel" alignment="0" max="32767" attributes="0"/>
+                          <Component id="wingspanLabel" alignment="0" max="32767" attributes="0"/>
+                          <Component id="characteristicLabel" alignment="0" max="32767" attributes="0"/>
+                          <Component id="descriptionLabel" alignment="0" pref="129" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="coordsXField" alignment="0" max="32767" attributes="0"/>
+                  <Component id="coordsYField" alignment="0" max="32767" attributes="0"/>
+                  <Component id="ageField" alignment="0" max="32767" attributes="0"/>
+                  <Component id="descriptionField" alignment="0" max="32767" attributes="0"/>
+                  <Component id="characteristicBox" alignment="0" pref="177" max="32767" attributes="0"/>
+                  <Component id="wingspanField" alignment="0" max="32767" attributes="0"/>
+                  <Component id="nameField" alignment="0" max="32767" attributes="0"/>
+                  <Component id="treasuresField" alignment="0" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace pref="99" max="32767" attributes="0"/>
+          </Group>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="67" max="-2" attributes="0"/>
+              <Component id="saveButton" min="-2" pref="90" max="-2" attributes="0"/>
+              <EmptySpace pref="184" max="32767" attributes="0"/>
+              <Component id="cancelButton" min="-2" pref="90" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="titleLabel" min="-2" pref="38" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="nameLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="nameField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="coordsXLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="coordsXField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="coordsYLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="coordsYField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="ageLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ageField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="descriptionLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="descriptionField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="characteristicLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="characteristicBox" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="wingspanLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="wingspanField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="treasuresLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="treasuresField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="saveButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="cancelButton" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="15" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="nameLabel">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="4"/>
+        <Property name="text" type="java.lang.String" value="&#x41d;&#x430;&#x437;&#x432;&#x430;&#x43d;&#x438;&#x435;:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="coordsXLabel">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="4"/>
+        <Property name="text" type="java.lang.String" value="&#x41a;&#x43e;&#x43e;&#x440;&#x434;&#x438;&#x43d;&#x430;&#x442;&#x430; X:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="coordsYLabel">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="4"/>
+        <Property name="text" type="java.lang.String" value="&#x41a;&#x43e;&#x43e;&#x440;&#x434;&#x438;&#x43d;&#x430;&#x442;&#x430; Y:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="ageLabel">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="4"/>
+        <Property name="text" type="java.lang.String" value="&#x412;&#x43e;&#x437;&#x440;&#x430;&#x441;&#x442;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="descriptionLabel">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="4"/>
+        <Property name="text" type="java.lang.String" value="&#x41e;&#x43f;&#x438;&#x441;&#x430;&#x43d;&#x438;&#x435;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="characteristicLabel">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="4"/>
+        <Property name="text" type="java.lang.String" value="&#x425;&#x430;&#x440;&#x430;&#x43a;&#x442;&#x435;&#x440;&#x438;&#x441;&#x442;&#x438;&#x43a;&#x430;:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="wingspanLabel">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="4"/>
+        <Property name="text" type="java.lang.String" value="&#x420;&#x430;&#x437;&#x43c;&#x430;&#x445;:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="treasuresLabel">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="4"/>
+        <Property name="text" type="java.lang.String" value="&#x421;&#x43e;&#x43a;&#x440;&#x43e;&#x432;&#x438;&#x449;&#x430;:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="nameField">
+    </Component>
+    <Component class="javax.swing.JTextField" name="descriptionField">
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="coordsXField">
+      <Properties>
+        <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+          <Format format="#0" subtype="-1" type="0"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="coordsYField">
+      <Properties>
+        <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+          <Format format="#0.00" subtype="-1" type="0"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="ageField">
+      <Properties>
+        <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+          <Format format="#0" subtype="-1" type="0"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="characteristicBox">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="Item 1"/>
+            <StringItem index="1" value="Item 2"/>
+            <StringItem index="2" value="Item 3"/>
+            <StringItem index="3" value="Item 4"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="titleLabel">
+      <Properties>
+        <Property name="horizontalAlignment" type="int" value="0"/>
+        <Property name="text" type="java.lang.String" value="&#x421;&#x43e;&#x437;&#x434;&#x430;&#x43d;&#x438;&#x435; &#x434;&#x440;&#x430;&#x43a;&#x43e;&#x43d;&#x430;"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="saveButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x421;&#x43e;&#x445;&#x440;&#x430;&#x43d;&#x438;&#x442;&#x44c;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="saveButtonMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="cancelButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="&#x41e;&#x442;&#x43c;&#x435;&#x43d;&#x430;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="cancelButtonMouseClicked"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="wingspanField">
+      <Properties>
+        <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+          <Format format="#0.00" subtype="-1" type="0"/>
+        </Property>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JFormattedTextField" name="treasuresField">
+      <Properties>
+        <Property name="formatterFactory" type="javax.swing.JFormattedTextField$AbstractFormatterFactory" editor="org.netbeans.modules.form.editors.AbstractFormatterFactoryEditor">
+          <Format format="#0" subtype="-1" type="0"/>
+        </Property>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
